@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/animations.css" />
+    <link rel="stylesheet" href="./public/css/page-landing.css" />
 
     <title>Happy</title>
 
@@ -15,26 +17,37 @@
     />
   </head>
 
-  <body id ="body">
-    <header>
-      <img src="./public/images/logo.svg" alt="Happy Logo" />
+  <body>
+    <div id="page-landing">
+      <div id="container">
+        <header>
+          <img
+            class="animate-up"
+            id="logo"
+            src="./public/images/logo.svg"
+            alt="Happy Logo"
+          />
 
-      <div>
-        <strong>Rio do Sul</strong>
-        <p>Santa Catarina</p>
+          <div class="location animate-up">
+            <strong>Rio do Sul</strong>
+            <p>Santa Catarina</p>
+          </div>
+        </header>
+
+        <main>
+          <h1 class="animate-up">Bring happiness to the world</h1>
+
+          <section class="visit">
+            <p class="animate-up">
+              Visit orphanages and change many children's day
+            </p>
+
+            <a class="animate-up" href="#" title="Visit orphanages">
+              <img src="./public/images/arrow.svg" alt="GO to map" />
+            </a>
+          </section>
+        </main>
       </div>
-    </header>
-
-    <main>
-      <h1>Bring happiness to the world</h1>
-
-      <section>
-        <p>Visit orphanages and change many children's day</p>
-
-        <a href="#" title="Visit orphanages">
-          <img src="./public/images/arrow.svg" alt="GO to map" />
-        </a>
-      </section>
-    </main>
+    </div>
   </body>
 </html>
