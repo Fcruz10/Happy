@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Girls' Home | Happy</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+
+    <link
+      rel="shortcut icon"
+      href="./public/images/logo-icon.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/animations.css" />
+    <link rel="stylesheet" href="./public/css/page-orphanage.css" />
+  </head>
+
+  <body>
+    <div id="page-orphanage">
+      <aside class="animate-right sidebar">
+
+        <img src="./public/images/map-marker.svg" alt="Happy">
+
+        <footer>
+          <button onclick="history.back()">
+            <img src="./public/images/arrow-back.svg" alt="Go Back">
+          </button>
+        </footer>
+
+      </aside>
+
+      <main class="animate-appear">
+        <div class="orphanage-details">
+          <img src="./public/images/home.jpg" alt="Girls' Home" />
+
+          <div class="images">
+            <button class="active" type="button">
+              <img src="./public/images/home.jpg" alt="Girls' Home" />
+            </button>
+
+            <button type="button">
+              <img src="./public/images/home.jpg" alt="Girls' Home" />
+            </button>
+
+            <button type="button">
+              <img src="./public/images/home.jpg" alt="Girls' Home" />
+            </button>
+
+            <button type="button">
+              <img src="./public/images/home.jpg" alt="Girls' Home" />
+            </button>
+
+            <button type="button">
+              <img src="./public/images/home.jpg" alt="Girls' Home" />
+            </button>
+
+            <button type="button">
+              <img src="./public/images/home.jpg" alt="Girls' Home" />
+            </button>
+          </div>
+
+          <div class="orphanage-details-content">
+            <h1>Girls' Home</h1>
+
+            <p>
+              It provides assistance to children aged 6 to 15 who are at risk
+              and/or socially vulnerable.
+            </p>
+
+            <div class="map-container">
+              <div class="mapid"></div>
+
+              <footer>
+                <a href="">See directions on google maps</a>
+              </footer>
+            </div>
+
+            <hr />
+
+            <h2>Visit instructions</h2>
+
+            <div class="open-details">
+              <div class="hour">
+                <img src="./public/images/clock.svg" alt="Schedules" />
+                Visiting hours from 8 am to 6 pm
+              </div>
+              <div class="open-on-weekends">
+                <img src="./public/images/info.svg" alt="Informations" />
+                We attend on weekends
+              </div>
+            </div>
+
+            <button class="primary-button" type="button">
+              <img src="./public/images/whatsapp.svg" alt="Call on Whatsapp" />
+              Get in touch
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="./public/scripts/page-orphanage.js"></script>
+  </body>
+</html>
