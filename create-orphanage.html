@@ -54,6 +54,8 @@
 
             <div class="map-container">
               <div id="mapid"></div>
+              <input type="hidden" name="lat">
+              <input type="hidden" name="lng">
 
               <footer>
                 <a href="#" id="select-point">
@@ -64,34 +66,41 @@
 
             <div class="input-block">
               <label for="name">Name</label>
-              <input id="name" name="name" />
+              <input id="name" name="name" required />
             </div>
 
             <div class="input-block">
               <label for="about"
                 >About <span>Maximum of 300 characters</span>
               </label>
-              <textarea id="about" name="about"></textarea>
+              <textarea id="about" name="about" required></textarea>
             </div>
 
             <div class="input-block">
               <label for="whatsapp">Whatsapp Number</label>
-              <input id="whatsapp" name="whatsapp" />
+              <input id="whatsapp" name="whatsapp" required />
             </div>
 
             <div class="input-block images">
               <label for="images">Photo</label>
 
               <div class="images-upload" id="images">
-
-                <div class="new-upload">                 
-                  <input name="images" placeholder="Paste the photo link here" />
-                  <span><img src="./public/images/remove-file.svg" alt="Remove Photo"></span>
+                <div class="new-upload">
+                  <input
+                    name="images"
+                    placeholder="Paste the photo link here"
+                    required
+                  />
+                  <span onclick="deleteField(event)">
+                    <img
+                      src="./public/images/remove-file.svg"
+                      alt="Remove Photo"
+                    />
+                  </span>
                 </div>
+              </div>
 
-                </div>
-
-              <button type="button">
+              <button type="button" onclick="addPhotoField()">
                 <img src="./public/images/add-file.svg" alt="Add Image" />
               </button>
             </div>
@@ -101,13 +110,13 @@
             <legend>Visitation</legend>
 
             <div class="input-block">
-              <label for="Instructions">Instructions</label>
+              <label for="Instructions" required>Instructions</label>
               <textarea id="Instructions" name="Instructions"></textarea>
             </div>
 
             <div class="input-block">
               <label for="opening_hours">Visiting time</label>
-              <input id="opening_hours" name="opening_hours" />
+              <input id="opening_hours" name="opening_hours" required />
             </div>
 
             <div class="input-block">
@@ -118,15 +127,15 @@
                 id="open_on_weekends"
                 name="open_on_weekends"
                 value="1"
+                required
               />
 
               <div class="button-select">
                 <button type="button" class="active">Yes</button>
-                <button type="button" >No</button>
+                <button type="button">No</button>
               </div>
 
               <button type="submit" class="primary-button">Confirm</button>
-
             </div>
           </fieldset>
         </form>
