@@ -70,10 +70,11 @@ main {
     font-size: 5.4rem;
     line-height: 1.5rem;
     margin-bottom: 0.8rem;
+    padding-bottom: 2.4rem;
 }
 
 .orphanage-details-content p {
-    line-height: 1.5rem;
+    line-height: 2.5rem;
     color: #5C8599;
     margin-top: 2.4rem;
 }
