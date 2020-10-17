@@ -1,6 +1,7 @@
 //import dependecy
 const express = require('express');
 const path = require('path');
+const pages = require('./pages.js')
 
 
 //express init
@@ -14,10 +15,12 @@ server
     .set('views', path.join(__dirname, 'views'))
     .set('view engine', 'hbs')
 
-    //crete route
-    .get('/', (req, res) => {
-    return res.render('index')
-    })
+    //create routes
+    .get('/', pages.index)
+    .get('/orphanage', pages.orphanage)
+    .get('/orphanages', pages.orphanages)
+    .get('/create-orphanage', pages.createOrphanage)
+
 
 
 //turn on server
