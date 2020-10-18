@@ -1,5 +1,5 @@
 //create map
-const map = L.map('mapid').setView([38.7206143,-9.1459582], 15);
+const map = L.map('mapid').setView([38.710567,-9.171603], 15);
 
 //create and add titleLayer
 L
