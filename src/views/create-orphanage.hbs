@@ -48,7 +48,7 @@
       </aside>
 
       <main class="animate-appear with-sidebar">
-        <form action="">
+        <form action="save-orphanage" method="POST" onsubmit="validate(event)">
           <fieldset>
             <legend>Data</legend>
 
@@ -89,6 +89,7 @@
                   <input
                     name="images"
                     placeholder="Paste the photo link here"
+                    {{!-- type="url" --}}
                     required
                   />
                   <span onclick="deleteField(event)">
