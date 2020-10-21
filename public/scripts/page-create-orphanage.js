@@ -90,3 +90,18 @@ function toggleSelect(event) {
 
     input.value = button.dataset.value;
 };
+
+// Notice missing to select location on map
+function validate(event) {
+    const lat = document.querySelector('[name=lat]').value;
+    const lng = document.querySelector('[name=lng]').value;
+
+    const valueLatLng = lat.concat(lng);
+    
+    //validate if lat and lng is filled
+    if(valueLatLng == '') {
+
+        event.preventDefault()
+        alert('Select one point on map!')
+    }
+};
