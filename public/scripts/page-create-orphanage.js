@@ -90,18 +90,3 @@ function toggleSelect(event) {
 
     input.value = button.dataset.value;
 };
-
-// function validate(event) {
-//     const lat = document.querySelector('span[data-lat]').dataset.lat;
-//     const lng = document.querySelector('span[data-lng]').dataset.lng;
-
-//     console.log(lat == '' || lng == '')
-
-
-//     //validate if lat and lng is filled
-//     if(true) {
-
-//         event.preventDefault()
-//         alert('Select one point on map!')
-//     }
-// };
