@@ -59,8 +59,8 @@ An online and completely free event that will help you take the next step in you
 
 ## :computer: About the Project
 
-Ecoleta is a a waste collect market, a project developed based on international environment week.
-That aims to connect people to companies that collect specific waste such as light bulbs, batteries, cooking oil, etc.
+Happy is a project that aims to facilitate visits to orphanages close to you.
+This is a project developed during **[Next Level Week](https://nextlevelweek.com/)**, carried out by **[@Rocketseat](https://github.com/Rocketseat)** during October 12th to 18th, 2020.
 
 <br />
 
