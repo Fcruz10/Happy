@@ -47,7 +47,7 @@
 
 ## :information_source: What's Next Level Week?
 
-<img style="margin-right: 6px" align= left alt="NextLevelWeek" title="#NextLevelWeek" src="https://raw.githubusercontent.com/DanielObara/NLW-1.0/c1a0101ed305530362b5120721c02f52a0026a29/.github/logo.svg" width="100px" />
+<img style="margin-right: 6px" align= left alt="NextLevelWeek" title="#NextLevelWeek" src="./public/github/NLW-symbol.png" width="100px" />
 
 NLW is a practical week with lots of code, challenges, networking and a single objective: to take you to the next level.
 Through our method you will learn new tools, learn about new technologies and discover hacks that will boost your career.
@@ -133,6 +133,5 @@ After your merging changes are accepted, you can delete your branch.
 
 This project is under the MIT license. See the [LICENSE](https://github.com/Fcruz10/Happy/blob/master/LICENSE) for details.
 
-<br />
 
 <p align="center"> Made by Francisco Cruz <a href="https://www.linkedin.com/in/francisco-cruz-074208140/"> Get in touch! </a> </p>
