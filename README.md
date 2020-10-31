@@ -93,7 +93,7 @@ This project was developed with the following technologies:
 
 ## :bookmark: Layout
 
-To access the layout use [Figma](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web?node-id=0%3A1).
+To access the layout use <a target="_blank" href="https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web?node-id=0%3A1">Figma</a>.
 
 <a id="how-to-use"></a>
 
