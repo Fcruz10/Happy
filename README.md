@@ -30,7 +30,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/Fcruz10/Happy">
   
-  <a href="https://github.com/Fcruz10/LaunchBase/commits/master">
+  <a href="https://github.com/Fcruz10/Happy/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Fcruz10/Happy">
   </a>
 
