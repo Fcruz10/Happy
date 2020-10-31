@@ -1,7 +1,7 @@
 <h3 align="center">
   <img alt="Happy" title="Happy" src="./public/github/logo-readme.svg" />
     <br>
-    <b>Recycle and help save our planet!</b>  
+    <b>Bringing joy and affection to children</b>  
     <br>
 </h3>
 
