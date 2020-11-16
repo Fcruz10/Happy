@@ -60,7 +60,7 @@ An online and completely free event that will help you take the next step in you
 ## :computer: About the Project
 
 Happy is a project that aims to facilitate visits to orphanages close to you.
-This is a project developed during **[Next Level Week](https://nextlevelweek.com/)**, carried out by **[@Rocketseat](https://github.com/Rocketseat)** during October 12th to 18th, 2020.
+This is a project developed during **[Next Level Week](https://nextlevelweek.com/)**, carried out by **[@Rocketseat](https://github.com/Rocketseat)**.
 
 <br />
 
